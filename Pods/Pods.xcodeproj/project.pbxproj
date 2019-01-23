@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67809E46D4A089EE8D4A4552BB75A4A /* Timeline.swift */; };
+		17BDC3485FAC1BE493B297DE9CAA40C2 /* CommonCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CBD1B7A3FE7D52C00B16ECEACB0B7 /* CommonCrypto-dummy.m */; };
+		1B5D9302C51821FE49E97BE47D666E03 /* NSData+CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F98EE5CC357D45D42322DBEC0B55D9 /* NSData+CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 412C70303F2F203D903B123D15311413 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CB272705B3F0E32BBAD0D05462D911 /* Pods-WishopUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB59CFB46667FDEFD1C9FA64E0C34101 /* Pods-WishopUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C508CC1E25A0462AA6923BE39CAB2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2D53DF72C0C2C003CBDCD6C91DE61 /* TaskDelegate.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35DEFEC0790841BC8EFF051F2AA13E4 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CBF0A5FA25B06F7E746167BC8D85C /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA925D103E29BC5D182FF2D16FA3F15C /* ServerTrustPolicy.swift */; };
+		74ECC6DF122C821334DEAAB94A018B22 /* CommonCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 849A74508A1D3989C1AAC436FD08718B /* CommonCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236A95C8A8537EEE2E1AD1C6611DD5B /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE27CC3707F5C90E313F1B3CE6ACE8E /* Result.swift */; };
+		804A67FCFC7A98AC7CC46781BAD88D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		92600B573F38AE7A7B099FCB38F50BA4 /* Pods-Wishop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B11B69856B6BC5C9E3BCC4B76125B /* Pods-Wishop-dummy.m */; };
+		946E3741C9B6B07C03038EB2B3F4497F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE113F6A113DC7255C8CA6E2FCC40A /* AFError.swift */; };
+		9F3B09BBF2CA8E533C5ECEB0D5D087FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C78F4A70DC22DD05794368566EAD1A0 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8892F8281F1A7B009DD10D365ABDAC85 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02FC042418B5D6BB82B3AB6CCBE64C /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F11C64C59F0EB43D278B274423FB18 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7869CF19FE4EA51257114AC9008C6462 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEE318FF8874A82D89CAE2B97584EB /* ParameterEncoding.swift */; };
+		C8F3AFA8A0749DE5073604CCA9DB9F50 /* Pods-WishopUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2628BF5ECD2F7CBCBE5FCD7401446292 /* Pods-WishopUITests-dummy.m */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E622385283EA49A816D7301FD21F50 /* Response.swift */; };
+		CC883A908E11493A032F52A0A51844C9 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C932253E0577E45CC2C62301F27526 /* NSData+CommonCrypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D4C61C5B2B33080A52D128D38C9D982B /* Pods-WishopTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E362291F018B85AC3441FD2ED178460C /* Pods-WishopTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D73FAC62287A8E5E5A325E48969F3291 /* Pods-Wishop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C6B86E951DA446D1DFCCC14EF52144 /* Pods-Wishop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2533670120D4FCFFE4DF2931AD9B26 /* Pods-WishopTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 320F082FEE55F4A86F5A40B043E5254D /* Pods-WishopTests-dummy.m */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081E6BED3766D856F13A636EEE42D52 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E9DD3C3F0135638F7DAED778A58799 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06340B45C2CA7B4FE110C37F0D11F9C2 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B5E98675C6F9F86DF2E3121DA9333BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD87754BF80D8BB44206D242C5A2073;
+			remoteInfo = CommonCrypto;
+		};
+		DC107EBF7B21DCC23FA24F777452C9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0378EA70A0A80F3323B607C7548D18B9 /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
+		05E622385283EA49A816D7301FD21F50 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		06340B45C2CA7B4FE110C37F0D11F9C2 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		0DBEE318FF8874A82D89CAE2B97584EB /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		178E676E29AAC7E460DABD4D0B629362 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AE113F6A113DC7255C8CA6E2FCC40A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		18D6900FA0D666F601FD674FE01FE9CA /* Pods-Wishop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wishop-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D6CBD1B7A3FE7D52C00B16ECEACB0B7 /* CommonCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonCrypto-dummy.m"; sourceTree = "<group>"; };
+		202CD36D7ACA1B0DB208AA04D16BF962 /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonCrypto.framework; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		205B81F13AD1EC458AAD1D8D8E7701D4 /* Pods-WishopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WishopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		22A2D53DF72C0C2C003CBDCD6C91DE61 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		2628BF5ECD2F7CBCBE5FCD7401446292 /* Pods-WishopUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WishopUITests-dummy.m"; sourceTree = "<group>"; };
+		27E6E56BE2ACC54A4D31A6FE7A3130A9 /* CommonCrypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CommonCrypto.modulemap; sourceTree = "<group>"; };
+		2CAC7DCA873BE21D7CBD670F64B01FBE /* CommonCrypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonCrypto-prefix.pch"; sourceTree = "<group>"; };
+		2F08B08C1A379EE2F0B7E6F76063C592 /* Pods-Wishop-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wishop-frameworks.sh"; sourceTree = "<group>"; };
+		3081E6BED3766D856F13A636EEE42D52 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		3091D6C8CA3C3394021D085586979681 /* Pods_WishopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WishopTests.framework; path = "Pods-WishopTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320F082FEE55F4A86F5A40B043E5254D /* Pods-WishopTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WishopTests-dummy.m"; sourceTree = "<group>"; };
+		3236A95C8A8537EEE2E1AD1C6611DD5B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		3293B094384CE3D9F4AC54ACEE6C9E35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3612E0BBFACF4C29044BA1887B36FF00 /* Pods-Wishop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wishop.release.xcconfig"; sourceTree = "<group>"; };
+		3BAB0716C388DC6AF2CE7AFE214D7CB3 /* Pods-Wishop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wishop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CAC967A421B01D96DA2B56E55980074 /* Pods-Wishop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Wishop.modulemap"; sourceTree = "<group>"; };
+		3EAADD6D354E1F2F61F63AD40E4CD2C2 /* Pods_Wishop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Wishop.framework; path = "Pods-Wishop.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		412C70303F2F203D903B123D15311413 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		47308950B057EF5292E612533B6BF5C3 /* Pods-WishopUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WishopUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52E3AA5AFD1AC50CA224E5904D8342AB /* Pods-Wishop-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wishop-resources.sh"; sourceTree = "<group>"; };
+		53CECB7168E85BAB1A0760C9C52D52D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6105FEFAF8C3797E3D05C443C7CBA61C /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		685D441DFAB91F2DDF829A832AE44468 /* Pods-Wishop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wishop.debug.xcconfig"; sourceTree = "<group>"; };
+		7869CF19FE4EA51257114AC9008C6462 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		790B11B69856B6BC5C9E3BCC4B76125B /* Pods-Wishop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wishop-dummy.m"; sourceTree = "<group>"; };
+		7B0CBF0A5FA25B06F7E746167BC8D85C /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		80E6DD9C17DCAE9078DE4E220378F3F4 /* Pods-WishopUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WishopUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		849A74508A1D3989C1AAC436FD08718B /* CommonCrypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonCrypto-umbrella.h"; sourceTree = "<group>"; };
+		8892F8281F1A7B009DD10D365ABDAC85 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		8C78F4A70DC22DD05794368566EAD1A0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		92C932253E0577E45CC2C62301F27526 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959A9023A9FDE88FA37EEF46D452C8DD /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		9887A03FF5BE5C964FF2DD9A5FAD3002 /* Pods-WishopTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WishopTests.modulemap"; sourceTree = "<group>"; };
+		9FE68547019072394A4BACD139952CFC /* Pods-WishopTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WishopTests-resources.sh"; sourceTree = "<group>"; };
+		AFF30D00D9A49E9EDCDCC485E2CCD41D /* Pods-WishopUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WishopUITests-resources.sh"; sourceTree = "<group>"; };
+		B5E9DD3C3F0135638F7DAED778A58799 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B8A527A28AFC48B7D5F5177E80D0E08D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7282085B506D60C91F1FADF27ED96D /* Pods-WishopTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WishopTests-frameworks.sh"; sourceTree = "<group>"; };
+		BE02FC042418B5D6BB82B3AB6CCBE64C /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		BE0A4FD2A327991D29611E0E8A5E03B3 /* Pods-WishopTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WishopTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C35DEFEC0790841BC8EFF051F2AA13E4 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C4F11C64C59F0EB43D278B274423FB18 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		C67809E46D4A089EE8D4A4552BB75A4A /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C7E0F124378AA217188FD0D7B159245C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA925D103E29BC5D182FF2D16FA3F15C /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D370EEBF48CC9139945F210D3396BA71 /* Pods-WishopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WishopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC13C9B70B892442768D3D4FC55BEE2C /* Pods_WishopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WishopUITests.framework; path = "Pods-WishopUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE27CC3707F5C90E313F1B3CE6ACE8E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		E1F98EE5CC357D45D42322DBEC0B55D9 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		E362291F018B85AC3441FD2ED178460C /* Pods-WishopTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WishopTests-umbrella.h"; sourceTree = "<group>"; };
+		E53B3085286CEBDC9BE37A614D991CFA /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		EB59CFB46667FDEFD1C9FA64E0C34101 /* Pods-WishopUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WishopUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC5848A53321E9B19190236BA8B9B047 /* Pods-WishopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WishopTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE496897F44FFC3B4308B97BEBDE8529 /* Pods-WishopUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WishopUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EF408A647854345808951B23A56AC91E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C6B86E951DA446D1DFCCC14EF52144 /* Pods-Wishop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wishop-umbrella.h"; sourceTree = "<group>"; };
+		F3E6790380BA6CC0A5D11C84B3364F6A /* Pods-WishopTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WishopTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F48B63A5B398D1BA0335C0585EA3B953 /* Pods-WishopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WishopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD4967224714170406C8275320E53049 /* Pods-WishopUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WishopUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72CE9944F7335F577BEF9AE9990FDF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3B09BBF2CA8E533C5ECEB0D5D087FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815847738417FF526DA30EF5C9F2AA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804A67FCFC7A98AC7CC46781BAD88D11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883543E3ADBBAFAE4E3D314E906F5112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946E3741C9B6B07C03038EB2B3F4497F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884BA38A38893C492B7017AB1B744095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C508CC1E25A0462AA6923BE39CAB2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056CCD752420687F9F7D896E233EDE87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E6E56BE2ACC54A4D31A6FE7A3130A9 /* CommonCrypto.modulemap */,
+				0378EA70A0A80F3323B607C7548D18B9 /* CommonCrypto.xcconfig */,
+				1D6CBD1B7A3FE7D52C00B16ECEACB0B7 /* CommonCrypto-dummy.m */,
+				2CAC7DCA873BE21D7CBD670F64B01FBE /* CommonCrypto-prefix.pch */,
+				849A74508A1D3989C1AAC436FD08718B /* CommonCrypto-umbrella.h */,
+				C7E0F124378AA217188FD0D7B159245C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CommonCrypto";
+			sourceTree = "<group>";
+		};
+		294E229A1ADF1A76BA4075EDD4B6F2B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				959A9023A9FDE88FA37EEF46D452C8DD /* Alamofire.modulemap */,
+				6105FEFAF8C3797E3D05C443C7CBA61C /* Alamofire.xcconfig */,
+				8892F8281F1A7B009DD10D365ABDAC85 /* Alamofire-dummy.m */,
+				E53B3085286CEBDC9BE37A614D991CFA /* Alamofire-prefix.pch */,
+				412C70303F2F203D903B123D15311413 /* Alamofire-umbrella.h */,
+				53CECB7168E85BAB1A0760C9C52D52D5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		6BC56C62B74ECBF4894A2330DDA71D0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6AD6E347DB4F0940BED8EF4AC697BCB /* Alamofire */,
+				CBB162E57CB62C8DC0249D7D7687AA32 /* CommonCrypto */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6BC56C62B74ECBF4894A2330DDA71D0D /* Pods */,
+				C85E69BA38FED124967E6DA57F4CAA39 /* Products */,
+				AF05E4AA59A9CCD79E61555021800BEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F748FF78D09C807C06D26E0D52DD4D3 /* Pods-WishopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3293B094384CE3D9F4AC54ACEE6C9E35 /* Info.plist */,
+				FD4967224714170406C8275320E53049 /* Pods-WishopUITests.modulemap */,
+				47308950B057EF5292E612533B6BF5C3 /* Pods-WishopUITests-acknowledgements.markdown */,
+				80E6DD9C17DCAE9078DE4E220378F3F4 /* Pods-WishopUITests-acknowledgements.plist */,
+				2628BF5ECD2F7CBCBE5FCD7401446292 /* Pods-WishopUITests-dummy.m */,
+				EE496897F44FFC3B4308B97BEBDE8529 /* Pods-WishopUITests-frameworks.sh */,
+				AFF30D00D9A49E9EDCDCC485E2CCD41D /* Pods-WishopUITests-resources.sh */,
+				EB59CFB46667FDEFD1C9FA64E0C34101 /* Pods-WishopUITests-umbrella.h */,
+				205B81F13AD1EC458AAD1D8D8E7701D4 /* Pods-WishopUITests.debug.xcconfig */,
+				F48B63A5B398D1BA0335C0585EA3B953 /* Pods-WishopUITests.release.xcconfig */,
+			);
+			name = "Pods-WishopUITests";
+			path = "Target Support Files/Pods-WishopUITests";
+			sourceTree = "<group>";
+		};
+		94E499C47AC21B1F617C3477B53AAB9A /* Pods-Wishop */ = {
+			isa = PBXGroup;
+			children = (
+				178E676E29AAC7E460DABD4D0B629362 /* Info.plist */,
+				3CAC967A421B01D96DA2B56E55980074 /* Pods-Wishop.modulemap */,
+				3BAB0716C388DC6AF2CE7AFE214D7CB3 /* Pods-Wishop-acknowledgements.markdown */,
+				18D6900FA0D666F601FD674FE01FE9CA /* Pods-Wishop-acknowledgements.plist */,
+				790B11B69856B6BC5C9E3BCC4B76125B /* Pods-Wishop-dummy.m */,
+				2F08B08C1A379EE2F0B7E6F76063C592 /* Pods-Wishop-frameworks.sh */,
+				52E3AA5AFD1AC50CA224E5904D8342AB /* Pods-Wishop-resources.sh */,
+				F1C6B86E951DA446D1DFCCC14EF52144 /* Pods-Wishop-umbrella.h */,
+				685D441DFAB91F2DDF829A832AE44468 /* Pods-Wishop.debug.xcconfig */,
+				3612E0BBFACF4C29044BA1887B36FF00 /* Pods-Wishop.release.xcconfig */,
+			);
+			name = "Pods-Wishop";
+			path = "Target Support Files/Pods-Wishop";
+			sourceTree = "<group>";
+		};
+		A6AD6E347DB4F0940BED8EF4AC697BCB /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				18AE113F6A113DC7255C8CA6E2FCC40A /* AFError.swift */,
+				06340B45C2CA7B4FE110C37F0D11F9C2 /* Alamofire.swift */,
+				7B0CBF0A5FA25B06F7E746167BC8D85C /* DispatchQueue+Alamofire.swift */,
+				C4F11C64C59F0EB43D278B274423FB18 /* MultipartFormData.swift */,
+				8C78F4A70DC22DD05794368566EAD1A0 /* NetworkReachabilityManager.swift */,
+				3081E6BED3766D856F13A636EEE42D52 /* Notifications.swift */,
+				0DBEE318FF8874A82D89CAE2B97584EB /* ParameterEncoding.swift */,
+				C35DEFEC0790841BC8EFF051F2AA13E4 /* Request.swift */,
+				05E622385283EA49A816D7301FD21F50 /* Response.swift */,
+				B5E9DD3C3F0135638F7DAED778A58799 /* ResponseSerialization.swift */,
+				DEE27CC3707F5C90E313F1B3CE6ACE8E /* Result.swift */,
+				CA925D103E29BC5D182FF2D16FA3F15C /* ServerTrustPolicy.swift */,
+				3236A95C8A8537EEE2E1AD1C6611DD5B /* SessionDelegate.swift */,
+				BE02FC042418B5D6BB82B3AB6CCBE64C /* SessionManager.swift */,
+				22A2D53DF72C0C2C003CBDCD6C91DE61 /* TaskDelegate.swift */,
+				C67809E46D4A089EE8D4A4552BB75A4A /* Timeline.swift */,
+				7869CF19FE4EA51257114AC9008C6462 /* Validation.swift */,
+				294E229A1ADF1A76BA4075EDD4B6F2B0 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		AF05E4AA59A9CCD79E61555021800BEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E499C47AC21B1F617C3477B53AAB9A /* Pods-Wishop */,
+				BCC7899A5470ED250CC061FCA48823A5 /* Pods-WishopTests */,
+				7F748FF78D09C807C06D26E0D52DD4D3 /* Pods-WishopUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC7899A5470ED250CC061FCA48823A5 /* Pods-WishopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF408A647854345808951B23A56AC91E /* Info.plist */,
+				9887A03FF5BE5C964FF2DD9A5FAD3002 /* Pods-WishopTests.modulemap */,
+				BE0A4FD2A327991D29611E0E8A5E03B3 /* Pods-WishopTests-acknowledgements.markdown */,
+				F3E6790380BA6CC0A5D11C84B3364F6A /* Pods-WishopTests-acknowledgements.plist */,
+				320F082FEE55F4A86F5A40B043E5254D /* Pods-WishopTests-dummy.m */,
+				BA7282085B506D60C91F1FADF27ED96D /* Pods-WishopTests-frameworks.sh */,
+				9FE68547019072394A4BACD139952CFC /* Pods-WishopTests-resources.sh */,
+				E362291F018B85AC3441FD2ED178460C /* Pods-WishopTests-umbrella.h */,
+				D370EEBF48CC9139945F210D3396BA71 /* Pods-WishopTests.debug.xcconfig */,
+				EC5848A53321E9B19190236BA8B9B047 /* Pods-WishopTests.release.xcconfig */,
+			);
+			name = "Pods-WishopTests";
+			path = "Target Support Files/Pods-WishopTests";
+			sourceTree = "<group>";
+		};
+		C85E69BA38FED124967E6DA57F4CAA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A527A28AFC48B7D5F5177E80D0E08D /* Alamofire.framework */,
+				202CD36D7ACA1B0DB208AA04D16BF962 /* CommonCrypto.framework */,
+				3EAADD6D354E1F2F61F63AD40E4CD2C2 /* Pods_Wishop.framework */,
+				3091D6C8CA3C3394021D085586979681 /* Pods_WishopTests.framework */,
+				DC13C9B70B892442768D3D4FC55BEE2C /* Pods_WishopUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB162E57CB62C8DC0249D7D7687AA32 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				E1F98EE5CC357D45D42322DBEC0B55D9 /* NSData+CommonCrypto.h */,
+				92C932253E0577E45CC2C62301F27526 /* NSData+CommonCrypto.m */,
+				056CCD752420687F9F7D896E233EDE87 /* Support Files */,
+			);
+			name = CommonCrypto;
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		163CC70EB52FF9894C687BD03310B1AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CB272705B3F0E32BBAD0D05462D911 /* Pods-WishopUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161A1249919029DE0B2AAF2AF7202A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73FAC62287A8E5E5A325E48969F3291 /* Pods-Wishop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3C7A8F3432F080A8647ADB7E0FC25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C61C5B2B33080A52D128D38C9D982B /* Pods-WishopTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC8BF82F387271536A59EE53E59929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74ECC6DF122C821334DEAAB94A018B22 /* CommonCrypto-umbrella.h in Headers */,
+				1B5D9302C51821FE49E97BE47D666E03 /* NSData+CommonCrypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		060F35036518DF7E58762A6B5A558416 /* Pods-Wishop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDB106CA362C3A1ED58C32D26281ADC /* Build configuration list for PBXNativeTarget "Pods-Wishop" */;
+			buildPhases = (
+				3E7D4BD52F39428F98A6F425DF90F92B /* Sources */,
+				815847738417FF526DA30EF5C9F2AA94 /* Frameworks */,
+				5161A1249919029DE0B2AAF2AF7202A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732E984EFA306EECF73D3D6B263E9355 /* PBXTargetDependency */,
+				CA1A847B9326F00836DFBD421C4CE424 /* PBXTargetDependency */,
+			);
+			name = "Pods-Wishop";
+			productName = "Pods-Wishop";
+			productReference = 3EAADD6D354E1F2F61F63AD40E4CD2C2 /* Pods_Wishop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		129F9BD554F4C2809277A3D8817891DA /* Pods-WishopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FE0DE606340385EA6A8FF7FE5681E9 /* Build configuration list for PBXNativeTarget "Pods-WishopTests" */;
+			buildPhases = (
+				CEE3D4ACA79103879111EDC243EC0C27 /* Sources */,
+				884BA38A38893C492B7017AB1B744095 /* Frameworks */,
+				C2D3C7A8F3432F080A8647ADB7E0FC25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WishopTests";
+			productName = "Pods-WishopTests";
+			productReference = 3091D6C8CA3C3394021D085586979681 /* Pods_WishopTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AB8888DF0495B6F7A96E9AD363D7063 /* Pods-WishopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639FC631ED14ECAE6223E56BA0874C45 /* Build configuration list for PBXNativeTarget "Pods-WishopUITests" */;
+			buildPhases = (
+				CD30F642491E7C88D0C9455BFA034FDE /* Sources */,
+				72CE9944F7335F577BEF9AE9990FDF5E /* Frameworks */,
+				163CC70EB52FF9894C687BD03310B1AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WishopUITests";
+			productName = "Pods-WishopUITests";
+			productReference = DC13C9B70B892442768D3D4FC55BEE2C /* Pods_WishopUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CD87754BF80D8BB44206D242C5A2073 /* CommonCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EE787D0903A7F87AC7ABF780E7CCB0 /* Build configuration list for PBXNativeTarget "CommonCrypto" */;
+			buildPhases = (
+				353651319018A53640F81EE54CCE6CD4 /* Sources */,
+				883543E3ADBBAFAE4E3D314E906F5112 /* Frameworks */,
+				F2AC8BF82F387271536A59EE53E59929 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCrypto;
+			productName = CommonCrypto;
+			productReference = 202CD36D7ACA1B0DB208AA04D16BF962 /* CommonCrypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = B8A527A28AFC48B7D5F5177E80D0E08D /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C85E69BA38FED124967E6DA57F4CAA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				4CD87754BF80D8BB44206D242C5A2073 /* CommonCrypto */,
+				060F35036518DF7E58762A6B5A558416 /* Pods-Wishop */,
+				129F9BD554F4C2809277A3D8817891DA /* Pods-WishopTests */,
+				4AB8888DF0495B6F7A96E9AD363D7063 /* Pods-WishopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353651319018A53640F81EE54CCE6CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BDC3485FAC1BE493B297DE9CAA40C2 /* CommonCrypto-dummy.m in Sources */,
+				CC883A908E11493A032F52A0A51844C9 /* NSData+CommonCrypto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7D4BD52F39428F98A6F425DF90F92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92600B573F38AE7A7B099FCB38F50BA4 /* Pods-Wishop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30F642491E7C88D0C9455BFA034FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F3AFA8A0749DE5073604CCA9DB9F50 /* Pods-WishopUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE3D4ACA79103879111EDC243EC0C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2533670120D4FCFFE4DF2931AD9B26 /* Pods-WishopTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732E984EFA306EECF73D3D6B263E9355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = DC107EBF7B21DCC23FA24F777452C9CF /* PBXContainerItemProxy */;
+		};
+		CA1A847B9326F00836DFBD421C4CE424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonCrypto;
+			target = 4CD87754BF80D8BB44206D242C5A2073 /* CommonCrypto */;
+			targetProxy = 4B5E98675C6F9F86DF2E3121DA9333BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03AB032AE5E99563A6173EFA6FBCF3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D370EEBF48CC9139945F210D3396BA71 /* Pods-WishopTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WishopTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WishopTests/Pods-WishopTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WishopTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6105FEFAF8C3797E3D05C443C7CBA61C /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D95481864448DB12BCA508E97B61FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0378EA70A0A80F3323B607C7548D18B9 /* CommonCrypto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CommonCrypto/CommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonCrypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonCrypto/CommonCrypto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A096B6D81D9DCFD2942B332073688A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0378EA70A0A80F3323B607C7548D18B9 /* CommonCrypto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CommonCrypto/CommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonCrypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonCrypto/CommonCrypto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBFC0902AA4CAB1757C982FD70EF506A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5848A53321E9B19190236BA8B9B047 /* Pods-WishopTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WishopTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WishopTests/Pods-WishopTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WishopTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE3EA4D7433CEE6E58652FDAD4F8713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3612E0BBFACF4C29044BA1887B36FF00 /* Pods-Wishop.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Wishop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wishop/Pods-Wishop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Wishop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEA758F3791A232F00D1A55A5300C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205B81F13AD1EC458AAD1D8D8E7701D4 /* Pods-WishopUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WishopUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WishopUITests/Pods-WishopUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WishopUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F044FDBC936ED5E05D811948D2C7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685D441DFAB91F2DDF829A832AE44468 /* Pods-Wishop.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Wishop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wishop/Pods-Wishop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Wishop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6105FEFAF8C3797E3D05C443C7CBA61C /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4DFA55D6FADB96909E4CFC8936840AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48B63A5B398D1BA0335C0585EA3B953 /* Pods-WishopUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WishopUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WishopUITests/Pods-WishopUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WishopUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06EE787D0903A7F87AC7ABF780E7CCB0 /* Build configuration list for PBXNativeTarget "CommonCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A096B6D81D9DCFD2942B332073688A71 /* Debug */,
+				0D95481864448DB12BCA508E97B61FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383079BFBF927813EA3613CFB679FDE /* Debug */,
+				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FE0DE606340385EA6A8FF7FE5681E9 /* Build configuration list for PBXNativeTarget "Pods-WishopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AB032AE5E99563A6173EFA6FBCF3D4 /* Debug */,
+				CBFC0902AA4CAB1757C982FD70EF506A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639FC631ED14ECAE6223E56BA0874C45 /* Build configuration list for PBXNativeTarget "Pods-WishopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA758F3791A232F00D1A55A5300C7BE /* Debug */,
+				F4DFA55D6FADB96909E4CFC8936840AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDB106CA362C3A1ED58C32D26281ADC /* Build configuration list for PBXNativeTarget "Pods-Wishop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F044FDBC936ED5E05D811948D2C7F2 /* Debug */,
+				CE3EA4D7433CEE6E58652FDAD4F8713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

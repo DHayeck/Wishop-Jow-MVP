@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE83DDF708347E1643BA673 /* Pods_WishopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143B789EFCB509B05F279425 /* Pods_WishopTests.framework */; };
+		30459CD5E788A703BCA1F8D5 /* Pods_WishopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0428D7EE93AC5E32515EB92 /* Pods_WishopUITests.framework */; };
+		667DE2001E9E6CD000E553F4 /* AmazonBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DE1FF1E9E6CD000E553F4 /* AmazonBasket.swift */; };
+		667DE2021E9E72F300E553F4 /* AmazonProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DE2011E9E72F300E553F4 /* AmazonProduct.swift */; };
+		66D4C1501E9CCE6500307249 /* ProductAdvertisingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D4C14F1E9CCE6500307249 /* ProductAdvertisingAPI.swift */; };
+		CD624B5442762EA69F2C2A1A /* Pods_Wishop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC7D249C4567BF6ED9FF5EA /* Pods_Wishop.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		DF00179F1EC0BD1E000BE935 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF00179E1EC0BD1E000BE935 /* PaymentViewController.swift */; };
+		DF0548581E620426009A9E4B /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0548561E620426009A9E4B /* CenterCellCollectionViewFlowLayout.swift */; };
+		DF0548591E620426009A9E4B /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0548571E620426009A9E4B /* ChooseViewController.swift */; };
+		DF05485B1E620454009A9E4B /* PickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05485A1E620454009A9E4B /* PickerCell.swift */; };
+		DF07E66F1E49E48C0011900A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF07E66B1E49E4370011900A /* Montserrat-Bold.ttf */; };
+		DF07E6701E49E48C0011900A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF07E66C1E49E4370011900A /* Montserrat-Regular.ttf */; };
+		DF07E6711E49E48C0011900A /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF07E66D1E49E4370011900A /* MontserratAlternates-Bold.ttf */; };
+		DF07E6721E49E48C0011900A /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF07E66E1E49E4370011900A /* MontserratAlternates-Regular.ttf */; };
+		DF14BE5A1E97C6BA00C87824 /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14BE591E97C6BA00C87824 /* BasketCell.swift */; };
+		DF1B488E1EA35DBC0068084B /* NbProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B488D1EA35DBC0068084B /* NbProductCell.swift */; };
+		DF369D031E52FF4700AAC0D8 /* Intro_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF369D021E52FF4700AAC0D8 /* Intro_1ViewController.swift */; };
+		DF44F76C1E3DF6F40097EAC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F76B1E3DF6F40097EAC2 /* AppDelegate.swift */; };
+		DF44F76E1E3DF6F40097EAC2 /* DemarrerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F76D1E3DF6F40097EAC2 /* DemarrerViewController.swift */; };
+		DF44F7711E3DF6F40097EAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF44F76F1E3DF6F40097EAC2 /* Main.storyboard */; };
+		DF44F7741E3DF6F40097EAC2 /* Wishop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF44F7721E3DF6F40097EAC2 /* Wishop.xcdatamodeld */; };
+		DF44F7761E3DF6F40097EAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF44F7751E3DF6F40097EAC2 /* Assets.xcassets */; };
+		DF44F7791E3DF6F40097EAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF44F7771E3DF6F40097EAC2 /* LaunchScreen.storyboard */; };
+		DF44F7841E3DF6F50097EAC2 /* WishopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F7831E3DF6F50097EAC2 /* WishopTests.swift */; };
+		DF44F78F1E3DF6F50097EAC2 /* WishopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F78E1E3DF6F50097EAC2 /* WishopUITests.swift */; };
+		DF4648EC1EAA4AE500ACBB8B /* LoadingBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4648EB1EAA4AE500ACBB8B /* LoadingBasketViewController.swift */; };
+		DF46C0E31E6EF16600573C6F /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46C0E21E6EF16600573C6F /* Cart.swift */; };
+		DF46C0E51E6EF17300573C6F /* ItemSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46C0E41E6EF17300573C6F /* ItemSearch.swift */; };
+		DF46C0E71E6EF17E00573C6F /* MyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46C0E61E6EF17E00573C6F /* MyParser.swift */; };
+		DF4A1FA31E6DC968001C0042 /* Intro_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A1FA21E6DC968001C0042 /* Intro_2ViewController.swift */; };
+		DF6692E71E5CCB6F00CE3518 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6692E61E5CCB6F00CE3518 /* MenuViewController.swift */; };
+		DFA45FEC1E7E96B200EFC4A3 /* LoadingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA45FEB1E7E96B200EFC4A3 /* LoadingMenuViewController.swift */; };
+		DFA45FEE1E7E9B5400EFC4A3 /* NumberMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA45FED1E7E9B5400EFC4A3 /* NumberMealViewController.swift */; };
+		DFA86C0A1E7823B800C141E5 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA86C091E7823B800C141E5 /* Recipe.swift */; };
+		DFA86C0C1E7828C300C141E5 /* RecipeQuerry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA86C0B1E7828C300C141E5 /* RecipeQuerry.swift */; };
+		DFC7A0CD1E69A67F006EDDA2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC7A0CC1E69A67F006EDDA2 /* MenuCell.swift */; };
+		DFC7A0CF1E69A6FA006EDDA2 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC7A0CE1E69A6FA006EDDA2 /* FooterCell.swift */; };
+		DFEDF0D61E9785E5007D0B77 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0D51E9785E5007D0B77 /* BasketViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF44F7801E3DF6F50097EAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF44F7601E3DF6F40097EAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF44F7671E3DF6F40097EAC2;
+			remoteInfo = Wishop;
+		};
+		DF44F78B1E3DF6F50097EAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF44F7601E3DF6F40097EAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF44F7671E3DF6F40097EAC2;
+			remoteInfo = Wishop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143B789EFCB509B05F279425 /* Pods_WishopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2004F63A14F55CB10667D5CD /* Pods-WishopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WishopTests/Pods-WishopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD63AAEB3862DD23B686E63 /* Pods-Wishop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wishop/Pods-Wishop.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4C1AD0865EF66A82549918 /* Pods-Wishop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wishop/Pods-Wishop.release.xcconfig"; sourceTree = "<group>"; };
+		667DE1FF1E9E6CD000E553F4 /* AmazonBasket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmazonBasket.swift; sourceTree = "<group>"; };
+		667DE2011E9E72F300E553F4 /* AmazonProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmazonProduct.swift; sourceTree = "<group>"; };
+		66D4C14F1E9CCE6500307249 /* ProductAdvertisingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAdvertisingAPI.swift; sourceTree = "<group>"; };
+		69CCD42C070B4A674DEEADB3 /* Pods-WishopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WishopUITests/Pods-WishopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC7D249C4567BF6ED9FF5EA /* Pods_Wishop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wishop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0428D7EE93AC5E32515EB92 /* Pods_WishopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69E552A16E81D6D5066F94D /* Pods-WishopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WishopTests/Pods-WishopTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF00179E1EC0BD1E000BE935 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		DF0548561E620426009A9E4B /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		DF0548571E620426009A9E4B /* ChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		DF05485A1E620454009A9E4B /* PickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerCell.swift; sourceTree = "<group>"; };
+		DF07E66B1E49E4370011900A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "Wishop/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		DF07E66C1E49E4370011900A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "Wishop/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		DF07E66D1E49E4370011900A /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Bold.ttf"; path = "Wishop/MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
+		DF07E66E1E49E4370011900A /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Regular.ttf"; path = "Wishop/MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
+		DF14BE591E97C6BA00C87824 /* BasketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
+		DF1B488D1EA35DBC0068084B /* NbProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NbProductCell.swift; sourceTree = "<group>"; };
+		DF369D021E52FF4700AAC0D8 /* Intro_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Intro_1ViewController.swift; path = Wishop/Intro_1ViewController.swift; sourceTree = "<group>"; };
+		DF44F7681E3DF6F40097EAC2 /* Wishop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wishop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44F76B1E3DF6F40097EAC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF44F76D1E3DF6F40097EAC2 /* DemarrerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemarrerViewController.swift; path = Wishop/DemarrerViewController.swift; sourceTree = "<group>"; };
+		DF44F7701E3DF6F40097EAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF44F7731E3DF6F40097EAC2 /* Wishop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wishop.xcdatamodel; sourceTree = "<group>"; };
+		DF44F7751E3DF6F40097EAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF44F7781E3DF6F40097EAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF44F77A1E3DF6F40097EAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44F77F1E3DF6F50097EAC2 /* WishopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44F7831E3DF6F50097EAC2 /* WishopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishopTests.swift; sourceTree = "<group>"; };
+		DF44F7851E3DF6F50097EAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44F78A1E3DF6F50097EAC2 /* WishopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44F78E1E3DF6F50097EAC2 /* WishopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishopUITests.swift; sourceTree = "<group>"; };
+		DF44F7901E3DF6F50097EAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4648EB1EAA4AE500ACBB8B /* LoadingBasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBasketViewController.swift; sourceTree = "<group>"; };
+		DF46C0E21E6EF16600573C6F /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		DF46C0E41E6EF17300573C6F /* ItemSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSearch.swift; sourceTree = "<group>"; };
+		DF46C0E61E6EF17E00573C6F /* MyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyParser.swift; sourceTree = "<group>"; };
+		DF4A1FA21E6DC968001C0042 /* Intro_2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro_2ViewController.swift; sourceTree = "<group>"; };
+		DF6692E61E5CCB6F00CE3518 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DFA45FEB1E7E96B200EFC4A3 /* LoadingMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingMenuViewController.swift; sourceTree = "<group>"; };
+		DFA45FED1E7E9B5400EFC4A3 /* NumberMealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberMealViewController.swift; sourceTree = "<group>"; };
+		DFA86C091E7823B800C141E5 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		DFA86C0B1E7828C300C141E5 /* RecipeQuerry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeQuerry.swift; sourceTree = "<group>"; };
+		DFC7A0CC1E69A67F006EDDA2 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		DFC7A0CE1E69A6FA006EDDA2 /* FooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		DFEDF0D51E9785E5007D0B77 /* BasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		E4139C93317CF0FC451910CE /* Pods-WishopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WishopUITests/Pods-WishopUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF44F7651E3DF6F40097EAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD624B5442762EA69F2C2A1A /* Pods_Wishop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44F77C1E3DF6F50097EAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE83DDF708347E1643BA673 /* Pods_WishopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44F7871E3DF6F50097EAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30459CD5E788A703BCA1F8D5 /* Pods_WishopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C357B195DD18D2CC9DD3DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BD63AAEB3862DD23B686E63 /* Pods-Wishop.debug.xcconfig */,
+				4C4C1AD0865EF66A82549918 /* Pods-Wishop.release.xcconfig */,
+				2004F63A14F55CB10667D5CD /* Pods-WishopTests.debug.xcconfig */,
+				C69E552A16E81D6D5066F94D /* Pods-WishopTests.release.xcconfig */,
+				69CCD42C070B4A674DEEADB3 /* Pods-WishopUITests.debug.xcconfig */,
+				E4139C93317CF0FC451910CE /* Pods-WishopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF3DD4931E5471BC00F8D1D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66D4C14F1E9CCE6500307249 /* ProductAdvertisingAPI.swift */,
+				DF46C0E41E6EF17300573C6F /* ItemSearch.swift */,
+				DF46C0E21E6EF16600573C6F /* Cart.swift */,
+				DF46C0E61E6EF17E00573C6F /* MyParser.swift */,
+				DFA86C091E7823B800C141E5 /* Recipe.swift */,
+				DFA86C0B1E7828C300C141E5 /* RecipeQuerry.swift */,
+				667DE1FF1E9E6CD000E553F4 /* AmazonBasket.swift */,
+				667DE2011E9E72F300E553F4 /* AmazonProduct.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DF3DD4941E5471C500F8D1D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF05485A1E620454009A9E4B /* PickerCell.swift */,
+				DF0548561E620426009A9E4B /* CenterCellCollectionViewFlowLayout.swift */,
+				DFC7A0CC1E69A67F006EDDA2 /* MenuCell.swift */,
+				DFC7A0CE1E69A6FA006EDDA2 /* FooterCell.swift */,
+				DF14BE591E97C6BA00C87824 /* BasketCell.swift */,
+				DF1B488D1EA35DBC0068084B /* NbProductCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DF3DD4951E5471CC00F8D1D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF44F76D1E3DF6F40097EAC2 /* DemarrerViewController.swift */,
+				DF369D021E52FF4700AAC0D8 /* Intro_1ViewController.swift */,
+				DF4A1FA21E6DC968001C0042 /* Intro_2ViewController.swift */,
+				DFA45FED1E7E9B5400EFC4A3 /* NumberMealViewController.swift */,
+				DFA45FEB1E7E96B200EFC4A3 /* LoadingMenuViewController.swift */,
+				DF6692E61E5CCB6F00CE3518 /* MenuViewController.swift */,
+				DF4648EB1EAA4AE500ACBB8B /* LoadingBasketViewController.swift */,
+				DFEDF0D51E9785E5007D0B77 /* BasketViewController.swift */,
+				DF0548571E620426009A9E4B /* ChooseViewController.swift */,
+				DF00179E1EC0BD1E000BE935 /* PaymentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DF3DD4961E5471D400F8D1D8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF07E66B1E49E4370011900A /* Montserrat-Bold.ttf */,
+				DF07E66C1E49E4370011900A /* Montserrat-Regular.ttf */,
+				DF07E66D1E49E4370011900A /* MontserratAlternates-Bold.ttf */,
+				DF07E66E1E49E4370011900A /* MontserratAlternates-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		DF44F75F1E3DF6F40097EAC2 = {
+			isa = PBXGroup;
+			children = (
+				DF44F76A1E3DF6F40097EAC2 /* Wishop */,
+				DF3DD4961E5471D400F8D1D8 /* Fonts */,
+				DF3DD4951E5471CC00F8D1D8 /* Controller */,
+				DF3DD4941E5471C500F8D1D8 /* View */,
+				DF3DD4931E5471BC00F8D1D8 /* Model */,
+				DF44F7821E3DF6F50097EAC2 /* WishopTests */,
+				DF44F78D1E3DF6F50097EAC2 /* WishopUITests */,
+				DF44F7691E3DF6F40097EAC2 /* Products */,
+				30C357B195DD18D2CC9DD3DF /* Pods */,
+				E346392DF677910B83EB51EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF44F7691E3DF6F40097EAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF44F7681E3DF6F40097EAC2 /* Wishop.app */,
+				DF44F77F1E3DF6F50097EAC2 /* WishopTests.xctest */,
+				DF44F78A1E3DF6F50097EAC2 /* WishopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF44F76A1E3DF6F40097EAC2 /* Wishop */ = {
+			isa = PBXGroup;
+			children = (
+				DF44F76B1E3DF6F40097EAC2 /* AppDelegate.swift */,
+				DF44F76F1E3DF6F40097EAC2 /* Main.storyboard */,
+				DF44F7751E3DF6F40097EAC2 /* Assets.xcassets */,
+				DF44F7771E3DF6F40097EAC2 /* LaunchScreen.storyboard */,
+				DF44F77A1E3DF6F40097EAC2 /* Info.plist */,
+				DF44F7721E3DF6F40097EAC2 /* Wishop.xcdatamodeld */,
+			);
+			path = Wishop;
+			sourceTree = "<group>";
+		};
+		DF44F7821E3DF6F50097EAC2 /* WishopTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF44F7831E3DF6F50097EAC2 /* WishopTests.swift */,
+				DF44F7851E3DF6F50097EAC2 /* Info.plist */,
+			);
+			path = WishopTests;
+			sourceTree = "<group>";
+		};
+		DF44F78D1E3DF6F50097EAC2 /* WishopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF44F78E1E3DF6F50097EAC2 /* WishopUITests.swift */,
+				DF44F7901E3DF6F50097EAC2 /* Info.plist */,
+			);
+			path = WishopUITests;
+			sourceTree = "<group>";
+		};
+		E346392DF677910B83EB51EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC7D249C4567BF6ED9FF5EA /* Pods_Wishop.framework */,
+				143B789EFCB509B05F279425 /* Pods_WishopTests.framework */,
+				C0428D7EE93AC5E32515EB92 /* Pods_WishopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF44F7671E3DF6F40097EAC2 /* Wishop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF44F7931E3DF6F50097EAC2 /* Build configuration list for PBXNativeTarget "Wishop" */;
+			buildPhases = (
+				5CF0CB0D2A96EA733FBEC6B8 /* [CP] Check Pods Manifest.lock */,
+				DF44F7641E3DF6F40097EAC2 /* Sources */,
+				DF44F7651E3DF6F40097EAC2 /* Frameworks */,
+				DF44F7661E3DF6F40097EAC2 /* Resources */,
+				5D135A0C63E8D669BAE62DDB /* [CP] Embed Pods Frameworks */,
+				5DA7149B85672DDE9F25A78B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wishop;
+			productName = Wishop;
+			productReference = DF44F7681E3DF6F40097EAC2 /* Wishop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF44F77E1E3DF6F50097EAC2 /* WishopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF44F7961E3DF6F50097EAC2 /* Build configuration list for PBXNativeTarget "WishopTests" */;
+			buildPhases = (
+				6964365B832ADE8526D02749 /* [CP] Check Pods Manifest.lock */,
+				DF44F77B1E3DF6F50097EAC2 /* Sources */,
+				DF44F77C1E3DF6F50097EAC2 /* Frameworks */,
+				DF44F77D1E3DF6F50097EAC2 /* Resources */,
+				A38D45968AE7210D1A66EEF6 /* [CP] Embed Pods Frameworks */,
+				08139A730559C3075E6F92BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF44F7811E3DF6F50097EAC2 /* PBXTargetDependency */,
+			);
+			name = WishopTests;
+			productName = WishopTests;
+			productReference = DF44F77F1E3DF6F50097EAC2 /* WishopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF44F7891E3DF6F50097EAC2 /* WishopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF44F7991E3DF6F50097EAC2 /* Build configuration list for PBXNativeTarget "WishopUITests" */;
+			buildPhases = (
+				A2353EB78A2F8F9B8D0CEA76 /* [CP] Check Pods Manifest.lock */,
+				DF44F7861E3DF6F50097EAC2 /* Sources */,
+				DF44F7871E3DF6F50097EAC2 /* Frameworks */,
+				DF44F7881E3DF6F50097EAC2 /* Resources */,
+				5459F1A417FA579AB0D69A1D /* [CP] Embed Pods Frameworks */,
+				1D4D42E52FDBC5ABD0B02910 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF44F78C1E3DF6F50097EAC2 /* PBXTargetDependency */,
+			);
+			name = WishopUITests;
+			productName = WishopUITests;
+			productReference = DF44F78A1E3DF6F50097EAC2 /* WishopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF44F7601E3DF6F40097EAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wishop;
+				TargetAttributes = {
+					DF44F7671E3DF6F40097EAC2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UY4XF67CAJ;
+						ProvisioningStyle = Automatic;
+					};
+					DF44F77E1E3DF6F50097EAC2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UY4XF67CAJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF44F7671E3DF6F40097EAC2;
+					};
+					DF44F7891E3DF6F50097EAC2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UY4XF67CAJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF44F7671E3DF6F40097EAC2;
+					};
+				};
+			};
+			buildConfigurationList = DF44F7631E3DF6F40097EAC2 /* Build configuration list for PBXProject "Wishop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF44F75F1E3DF6F40097EAC2;
+			productRefGroup = DF44F7691E3DF6F40097EAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF44F7671E3DF6F40097EAC2 /* Wishop */,
+				DF44F77E1E3DF6F50097EAC2 /* WishopTests */,
+				DF44F7891E3DF6F50097EAC2 /* WishopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF44F7661E3DF6F40097EAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44F7791E3DF6F40097EAC2 /* LaunchScreen.storyboard in Resources */,
+				DF07E66F1E49E48C0011900A /* Montserrat-Bold.ttf in Resources */,
+				DF07E6701E49E48C0011900A /* Montserrat-Regular.ttf in Resources */,
+				DF07E6711E49E48C0011900A /* MontserratAlternates-Bold.ttf in Resources */,
+				DF07E6721E49E48C0011900A /* MontserratAlternates-Regular.ttf in Resources */,
+				DF44F7761E3DF6F40097EAC2 /* Assets.xcassets in Resources */,
+				DF44F7711E3DF6F40097EAC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44F77D1E3DF6F50097EAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44F7881E3DF6F50097EAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08139A730559C3075E6F92BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WishopTests/Pods-WishopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D4D42E52FDBC5ABD0B02910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WishopUITests/Pods-WishopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5459F1A417FA579AB0D69A1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WishopUITests/Pods-WishopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF0CB0D2A96EA733FBEC6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D135A0C63E8D669BAE62DDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wishop/Pods-Wishop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA7149B85672DDE9F25A78B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wishop/Pods-Wishop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6964365B832ADE8526D02749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2353EB78A2F8F9B8D0CEA76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A38D45968AE7210D1A66EEF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WishopTests/Pods-WishopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF44F7641E3DF6F40097EAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44F76E1E3DF6F40097EAC2 /* DemarrerViewController.swift in Sources */,
+				DF00179F1EC0BD1E000BE935 /* PaymentViewController.swift in Sources */,
+				66D4C1501E9CCE6500307249 /* ProductAdvertisingAPI.swift in Sources */,
+				DF0548581E620426009A9E4B /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				DF4A1FA31E6DC968001C0042 /* Intro_2ViewController.swift in Sources */,
+				667DE2001E9E6CD000E553F4 /* AmazonBasket.swift in Sources */,
+				667DE2021E9E72F300E553F4 /* AmazonProduct.swift in Sources */,
+				DF46C0E31E6EF16600573C6F /* Cart.swift in Sources */,
+				DF1B488E1EA35DBC0068084B /* NbProductCell.swift in Sources */,
+				DFC7A0CF1E69A6FA006EDDA2 /* FooterCell.swift in Sources */,
+				DF46C0E51E6EF17300573C6F /* ItemSearch.swift in Sources */,
+				DF14BE5A1E97C6BA00C87824 /* BasketCell.swift in Sources */,
+				DFA45FEC1E7E96B200EFC4A3 /* LoadingMenuViewController.swift in Sources */,
+				DFEDF0D61E9785E5007D0B77 /* BasketViewController.swift in Sources */,
+				DF44F76C1E3DF6F40097EAC2 /* AppDelegate.swift in Sources */,
+				DF0548591E620426009A9E4B /* ChooseViewController.swift in Sources */,
+				DFA45FEE1E7E9B5400EFC4A3 /* NumberMealViewController.swift in Sources */,
+				DF6692E71E5CCB6F00CE3518 /* MenuViewController.swift in Sources */,
+				DFC7A0CD1E69A67F006EDDA2 /* MenuCell.swift in Sources */,
+				DF44F7741E3DF6F40097EAC2 /* Wishop.xcdatamodeld in Sources */,
+				DF46C0E71E6EF17E00573C6F /* MyParser.swift in Sources */,
+				DFA86C0C1E7828C300C141E5 /* RecipeQuerry.swift in Sources */,
+				DFA86C0A1E7823B800C141E5 /* Recipe.swift in Sources */,
+				DF4648EC1EAA4AE500ACBB8B /* LoadingBasketViewController.swift in Sources */,
+				DF369D031E52FF4700AAC0D8 /* Intro_1ViewController.swift in Sources */,
+				DF05485B1E620454009A9E4B /* PickerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44F77B1E3DF6F50097EAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44F7841E3DF6F50097EAC2 /* WishopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44F7861E3DF6F50097EAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44F78F1E3DF6F50097EAC2 /* WishopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF44F7811E3DF6F50097EAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF44F7671E3DF6F40097EAC2 /* Wishop */;
+			targetProxy = DF44F7801E3DF6F50097EAC2 /* PBXContainerItemProxy */;
+		};
+		DF44F78C1E3DF6F50097EAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF44F7671E3DF6F40097EAC2 /* Wishop */;
+			targetProxy = DF44F78B1E3DF6F50097EAC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF44F76F1E3DF6F40097EAC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF44F7701E3DF6F40097EAC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF44F7771E3DF6F40097EAC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF44F7781E3DF6F40097EAC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF44F7911E3DF6F50097EAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF44F7921E3DF6F50097EAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF44F7941E3DF6F50097EAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD63AAEB3862DD23B686E63 /* Pods-Wishop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UY4XF67CAJ;
+				INFOPLIST_FILE = Wishop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wishop.wi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF44F7951E3DF6F50097EAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4C1AD0865EF66A82549918 /* Pods-Wishop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UY4XF67CAJ;
+				INFOPLIST_FILE = Wishop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wishop.wi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DF44F7971E3DF6F50097EAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2004F63A14F55CB10667D5CD /* Pods-WishopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UY4XF67CAJ;
+				INFOPLIST_FILE = WishopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wi.WishopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wishop.app/Wishop";
+			};
+			name = Debug;
+		};
+		DF44F7981E3DF6F50097EAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69E552A16E81D6D5066F94D /* Pods-WishopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UY4XF67CAJ;
+				INFOPLIST_FILE = WishopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wi.WishopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wishop.app/Wishop";
+			};
+			name = Release;
+		};
+		DF44F79A1E3DF6F50097EAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CCD42C070B4A674DEEADB3 /* Pods-WishopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UY4XF67CAJ;
+				INFOPLIST_FILE = WishopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wi.WishopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wishop;
+			};
+			name = Debug;
+		};
+		DF44F79B1E3DF6F50097EAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4139C93317CF0FC451910CE /* Pods-WishopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UY4XF67CAJ;
+				INFOPLIST_FILE = WishopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wi.WishopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wishop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF44F7631E3DF6F40097EAC2 /* Build configuration list for PBXProject "Wishop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44F7911E3DF6F50097EAC2 /* Debug */,
+				DF44F7921E3DF6F50097EAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF44F7931E3DF6F50097EAC2 /* Build configuration list for PBXNativeTarget "Wishop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44F7941E3DF6F50097EAC2 /* Debug */,
+				DF44F7951E3DF6F50097EAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF44F7961E3DF6F50097EAC2 /* Build configuration list for PBXNativeTarget "WishopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44F7971E3DF6F50097EAC2 /* Debug */,
+				DF44F7981E3DF6F50097EAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF44F7991E3DF6F50097EAC2 /* Build configuration list for PBXNativeTarget "WishopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44F79A1E3DF6F50097EAC2 /* Debug */,
+				DF44F79B1E3DF6F50097EAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF44F7721E3DF6F40097EAC2 /* Wishop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF44F7731E3DF6F40097EAC2 /* Wishop.xcdatamodel */,
+			);
+			currentVersion = DF44F7731E3DF6F40097EAC2 /* Wishop.xcdatamodel */;
+			path = Wishop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF44F7601E3DF6F40097EAC2 /* Project object */;
+}

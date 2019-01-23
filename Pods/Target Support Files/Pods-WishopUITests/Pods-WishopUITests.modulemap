@@ -1,0 +1,6 @@
+framework module Pods_WishopUITests {
+  umbrella header "Pods-WishopUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
